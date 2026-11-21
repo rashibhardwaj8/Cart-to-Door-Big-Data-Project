@@ -1,0 +1,56 @@
+
+CART TO DOOR
+The Hidden Story Behind Every Online Order
+
+RASHI - PART 1: DATA UNDERSTANDING AND EXPLORATORY ANALYSIS
+
+1. Dataset Overview
+- Analysed Brazilian Olist E-commerce dataset.
+- Loaded 9 CSV datasets using Apache Spark.
+- Used PySpark for data processing and analysis.
+
+2. Customer Analysis
+- Total customer records: 99,441
+- Unique customers: 96,096
+- Customer cities: 4,119
+- Sao Paulo had the highest customer count.
+
+3. Order Analysis
+- Total orders: 99,441
+- Delivered orders: 96,478
+- Delivered order percentage: approximately 97.01%
+
+4. Delivery Analysis
+- Average delivery time: 12.56 days
+- Minimum delivery time: 0.53 days
+- Maximum delivery time: 209.63 days
+- Late deliveries: 7,826 (8.11%)
+- On-time or early deliveries: 88,644 (91.89%)
+
+5. Payment Analysis
+- Credit card was the most popular payment method.
+- Total credit card transactions: 76,795.
+
+6. Product Category Analysis
+- Bed, Bath & Table was the most ordered category.
+- Total items: 11,115.
+
+7. Seller Analysis
+- The highest-selling seller sold 2,033 items.
+
+8. Tools and Technologies
+- Python
+- Apache Spark
+- PySpark
+- Pandas
+- Matplotlib
+- Seaborn
+- Jupyter Notebook
+
+9. Output Files
+- monthly_orders.csv
+- top_customer_cities.csv
+- delivery_performance.csv
+- payment_methods.csv
+- product_categories.csv
+- seller_performance.csv
